@@ -1,6 +1,6 @@
 
 body {
-	/*background-color: rgb(60,179,113, .65);
+/*&
 #OBOC10  black
 #1F2833  dark grey
 #C5C6C7  light grey
@@ -140,19 +140,6 @@ footer a:hover{
 .cartInformation{
 	font-size: 40px;
 	line-height: 3;
-}
-.review{
-  padding-bottom: 40px;
-}
-.review .name {
-  font-weight: 700;
-  font-size: 20px;
-  padding-left: 45px;
-}
-
-.review .reviewcontent {
-  padding-left: 65px;
-  color: lightgrey;
 }
 
 .about{
