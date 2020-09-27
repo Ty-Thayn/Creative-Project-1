@@ -1,0 +1,181 @@
+
+body {
+	/*background-color: rgb(60,179,113, .65);
+#OBOC10  black
+#1F2833  dark grey
+#C5C6C7  light grey
+#66FCF1  cyan
+#45A29E  darker blue
+	*/
+	background-color: #1F2833;
+	color: #66FCF1;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30x;
+	padding-right: 30px;
+}
+
+h2{
+	text-align: left;
+	padding-left: 20px;
+  padding-top: 20px;
+}
+
+p{
+	margin: 0;
+  padding: 0;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+	left: 0;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+
+}
+
+footer a{
+  color: #66FCF1;
+
+}
+
+footer a:hover{
+  color: #45A29E;
+}
+
+.mainTitle{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 50px;
+  text-align: center;
+  color: #C5C6C7;
+}
+
+.subTitle{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.welcome{
+  padding: 30px;
+  padding-top: 45px;
+  color: lightgrey;
+  font-size: 38px;
+}
+
+.welcomeMessage{
+  font-size: 18px;
+  padding-bottom: 25px;
+  padding-left:60px;
+}
+
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.navbar {
+  background-color: #45A29E !important;
+  /*text-decoration-color: white !important;*/
+  padding-left: 15px !important;
+}
+
+.nav-link:hover{
+  background-color: #C5C6C7;
+  text-decoration-color: white;
+}
+
+.product img {
+  width: 100%;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+.masonry { /* Masonry container */
+  padding-top: 20px;
+  padding-left: 20px;
+  column-gap: 1em;
+	text-align: center;
+}
+
+
+.product { /* Masonry bricks or child elements */
+  background-color: rgb(35,43,43);
+  display: inline-block;
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+.cartProduct {
+	background-color: rgb(35,43,43);
+  margin: 0 0 1.5em;
+  width: 380px;
+	padding: 20px;
+}
+
+.cartInformation{
+	font-size: 40px;
+	line-height: 3;
+}
+.review{
+  padding-bottom: 40px;
+}
+.review .name {
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 45px;
+}
+
+.review .reviewcontent {
+  padding-left: 65px;
+  color: lightgrey;
+}
+
+.about{
+  font-size: 18px;
+  text-indent: 30px;
+}
+
+.about p{
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+.profilePicture{
+  padding-left: 30px;
+}
+
+.row{
+  display: flex;
+}
+
+.column{
+  flex: 50%;
+  padding: 5px;
+	padding-left: 35px;
+	text-align: center;
+}
